@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-/* main - entry point
+/**
+ * main - entry point
  * This program is to test the use
  * of certain functions
  */
