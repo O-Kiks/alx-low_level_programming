@@ -1,8 +1,9 @@
 #include <stdio.h>
 
-/*
+/* main - entry point
  * This program is to test the use
- * of certain functions*/
+ * of certain functions
+ */
 
 int main(void)
 {
