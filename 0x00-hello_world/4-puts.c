@@ -4,6 +4,7 @@
  * main - entry point
  * This program is to test the use
  * of certain functions
+ * Return: 0 if successful
  */
 
 int main(void)
