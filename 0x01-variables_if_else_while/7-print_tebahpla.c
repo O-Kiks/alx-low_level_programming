@@ -5,7 +5,7 @@
  *
  * Description: print the alphabets in lower case and in a reversed order
  *
- * return: 0 Always (success)
+ * Return: 0 Always (success)
  */
 
 int main(void)
@@ -17,7 +17,6 @@ int main(void)
 	putchar (letter);
 	letter--;
 	}
-	
 	putchar ('\n');
 
 	return (0);
