@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there
+/** more headers goes there
  * main - Entry point
  * Description: Program to run project
  * Return: 0 if successful
@@ -27,7 +27,8 @@ int main(void)
 		}
 		else 
 		{
-		printf("Last digit of %d id %d and is less than 6 and not 0\n", n, lastDigit);
+		printf
+		("Last digit of %d is %d and is less than 6 and not 0\n", n, lastDigit);
 		}
 	return (0);
 }
