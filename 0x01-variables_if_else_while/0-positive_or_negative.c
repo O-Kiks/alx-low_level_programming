@@ -5,9 +5,9 @@
 
 /* betty style doc for function main goes there */
 /**
- * main - entry point
+ * main - Entry point
  * Description: a program to return statements for assigned random variables
- * Return:(0) if successful
+ * Return:0 if successful
  */
 
 int main(void)
@@ -21,7 +21,7 @@ int main(void)
 		{
 			printf("%d is positive\n", n);
 		}
-		else
+	else
 		{
 			if (n == 0)
 			{
