@@ -1,13 +1,14 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/** more headers goes there
+/*
+ * more headers goes there
  * main - Entry point
  * Description: Program to run project
  * Return: 0 if successful
  */
 
-/* betty style doc for function main goes there */
+/* main - Entry point */
 int main(void)
 {
 	int n;
