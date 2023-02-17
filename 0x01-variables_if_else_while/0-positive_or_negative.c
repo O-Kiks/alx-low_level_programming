@@ -7,7 +7,8 @@
 /**
  * main - entry point
  * Description: a program to return statements for assigned random variables
- * Return (0) if successful*/
+ * Return:(0) if successful
+ */
 
 int main(void)
 {
@@ -18,7 +19,7 @@ int main(void)
 	/* your code goes there */
 	if (n > 0)
 		{
-			printf("%d is positive\n",n);
+			printf("%d is positive\n", n);
 		}
 		else
 		{
