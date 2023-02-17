@@ -1,14 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
- * more headers goes there
+/** more headers goes there
  * main - Entry point
  * Description: Program to run project
  * Return: 0 if successful
  */
 
-/* main - Entry point */
+/* betty style doc for function main goes there */
 int main(void)
 {
 	int n;
@@ -26,7 +25,7 @@ int main(void)
 		{
 		printf("Last digit of %d is %d and is 0\n", n, lastDigit);
 		}
-		else 
+		else
 		{
 		printf
 		("Last digit of %d is %d and is less than 6 and not 0\n", n, lastDigit);
