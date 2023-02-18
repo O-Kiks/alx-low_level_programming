@@ -2,8 +2,7 @@
 
 /**
  * main - Entry point
- *
- * Description: a pogram that forms two digit numbers
+ * Descrription: A program that
  * from single digit numbers and prevents repetition of digits
  * by printing lower value number
  *
@@ -28,5 +27,5 @@ int main(void)
 	}
 	}
 	putchar ('\n');
-	return 0;
+	return (0);
 }
