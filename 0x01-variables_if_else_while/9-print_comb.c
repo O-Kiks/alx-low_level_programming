@@ -3,7 +3,8 @@
 /**
  * main - Entry point
  *
- * Description: print single digit numbers between 0 and 10 and separate them with a comma
+ * Description: print single digit numbers between 0 and 10
+ * and separate them with a comma
  *
  * Return: 0 Always (success)
  */
