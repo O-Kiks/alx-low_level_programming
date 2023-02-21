@@ -12,7 +12,7 @@ int main(void)
 {
 	char letter = 'a';
 
-	if (letter = 'a';  letter <= 'z')
+	for (letter = 'a';  letter <= 'z')
 	{
 		putchar(letter);
 		letter++;
