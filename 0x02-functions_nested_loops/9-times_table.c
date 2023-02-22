@@ -15,13 +15,20 @@ void times_table(void)
 	int count = 0;
 	for (count = 0; count <= 9; count++)
 	{
-		for (number = 0; number <= 9; number++)
+		for (number = 0)
+		{
+			_putchar ('0');
+			_putchar (',');
+		}
+		for (number = 1; number <= 9; number++)
 		{
 			int product = count * number;
 			int dive = product / 10;
 			int mode = product % 10;	
 			if (product < 10)
 			{
+				_putchar (' ');
+				_putchar (' ');
 				_putchar('0' + product);
 
 				if (number == 9)
@@ -29,8 +36,6 @@ void times_table(void)
 					continue;
 				}
 				_putchar (',');
-				_putchar (' ');
-				_putchar (' ');
 			}
 			else
 			{
