@@ -10,6 +10,7 @@
 
 int print_last_digit(int modular)
 {
-	//_putchar (modular % 10);
+	int mode = modular % 10;
+	_putchar (mode);
 	return (modular % 10);
 }
