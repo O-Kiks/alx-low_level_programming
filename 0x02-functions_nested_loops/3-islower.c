@@ -3,7 +3,7 @@
 /**
  * _islower - Entry point
  *
- * @letter - alphabet received
+ * @letter: alphabet received
  * Return: 0 if untrue, 1 if true.
  */
 
