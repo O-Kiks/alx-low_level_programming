@@ -21,18 +21,30 @@ void times_table(void)
 			int product = count * number;
 			int dive = product / 10;
 			int mode = product % 10;
-
-			_putchar ('0'+ dive);
-			_putchar ('0'+ mode);
-
-			if (number == 9)
+			
+			if (product < 10)
 			{
-				continue;
-			}
-			_putchar (',');
-			_putchar (' ');
-		}
-		_putchar ('\n');
-	}
-}
+				_putchar('0'+ product);
 
+				if (number == 9)
+				{
+					continue;
+				}
+				_putchar (',');
+				_putchar (' ');
+			}
+			else
+			{
+				_putchar ('0'+ dive);
+				_putchar ('0'+ mode);
+				
+				if (number == 9)
+				{
+					continue;
+				}
+				_putchar (',');
+				_putchar (' ');
+			}
+			_putchar ('\n');
+		}
+	}
