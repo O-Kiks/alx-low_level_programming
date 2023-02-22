@@ -3,7 +3,7 @@
 /**
  *  * jack_bauer - Entry
  *   * Return: hour, minute
- *    */
+ */
 
 void jack_bauer(void)
 {
