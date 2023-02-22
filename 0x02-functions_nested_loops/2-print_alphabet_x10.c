@@ -3,7 +3,7 @@
 /**
  * print_alphabet_x10 - Entry point
  *
- * Description: prints lower case alphabets ten times 
+ * Description: prints lowercase alphabets ten times
  * and each line separated by a new line
  *
  * Return: 0 Always.
