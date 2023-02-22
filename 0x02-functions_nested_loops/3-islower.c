@@ -3,11 +3,8 @@
 /**
  * _islower - Entry point
  *
- * letter - letter received
- *
- * Description: a program that checks for lower case characters
- *
- * Return: 0 Always.
+ * @letter - alphabet received
+ * Return: 0 if untrue, 1 if true.
  */
 
 int _islower(int letter)
