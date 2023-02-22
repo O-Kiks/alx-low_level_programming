@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *  * times_table - main
- *   * Return: value
- *    */
+ * times_table - main
+ * Return: value
+ */
 
 void times_table(void)
 {
