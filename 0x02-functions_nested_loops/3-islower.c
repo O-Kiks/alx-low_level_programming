@@ -3,6 +3,8 @@
 /**
  * _islower - Entry point
  *
+ * letter - letter received
+ *
  * Description: a program that checks for lower case characters
  *
  * Return: 0 Always.
