@@ -10,19 +10,15 @@
 
 int _abs(int n)
 {
-	char n1;
-	char n2;
+	
 
-	n1 = -1 * n;
-	n2 = 1 * n;
-
-	if (n >= 48)
+	if (n >= 0)
 	{
-		_putchar(n2);
+		_putchar(n);
 	}
 	else
 	{
-		_putchar(n1);
+		_putchar(-(n));
 	}
 	_putchar('\n');
 	return (0);
