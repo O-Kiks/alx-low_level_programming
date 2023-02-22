@@ -13,8 +13,7 @@ void times_table(void)
 {
 	int number = 0;
 	int count = 0;
-	int product, dive, mode;
-
+	
 	for (count = 0; count <= 9; count++)
 	{
 		for (number = 0; number <= 9; number++)
