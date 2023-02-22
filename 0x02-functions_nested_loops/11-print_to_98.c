@@ -15,12 +15,15 @@ void print_to_98(int n)
 		while (n <= val)
 		{
 			printf("%d", n);
-				if (n == val)
-				{
+
+
+			if (n == val)
+			{
 				break;
-				}
-				putchar(',');																				putchar(' ');
-				n++;
+			}
+			putchar(',');
+			putchar(' ');
+			n++;
 		}
 	}
 	else if (n >= val)
@@ -28,13 +31,14 @@ void print_to_98(int n)
 		while (n >= val)
 		{
 			printf("%d", n);
-				if (n == val)
-				{
-					break;
-				}
-				putchar(',');
-				putchar(' ');
-				n--;
+
+			if (n == val)
+			{
+				break;
+			}
+			putchar(',');
+			putchar(' ');
+			n--;
 		}
 	}
 	putchar('\n');
