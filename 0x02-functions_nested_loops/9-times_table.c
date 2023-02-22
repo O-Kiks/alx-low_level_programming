@@ -17,12 +17,12 @@ void times_table(void)
 	{
 		for (number = 0;)
 		{
-			_putchar ('0');
-			_putchar (',');
+		_putchar ('0');
+		_putchar (',');
 		}
 		for (number = 1; number <= 9; number++)
 		{
-			int product = count * number;
+		int product = count * number;
 			int dive = product / 10;
 			int mode = product % 10;	
 			if (product < 10)
