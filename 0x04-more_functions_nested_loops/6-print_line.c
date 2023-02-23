@@ -1,25 +1,17 @@
 #include "main.h"
-
 /**
- * print_line - entry point
- * @n: argument to be checked
- * Return: 0 Always
- */
-
+ * print_line - print a straight line
+ *
+ * @n: is the number of times the _ character
+ *     should be printed
+*/
 void print_line(int n)
 {
-	n = 10;
 	int i;
 
-	for (i = 1; i <= n; i++)
+	for (i = 0; i < n; i++)
 	{
 		_putchar('_');
-		if (n == 0)
-		{
-			_putchar ('\n');
-		}
 	}
-	_putchar ('\n');
+	_putchar('\n');
 }
-
-
