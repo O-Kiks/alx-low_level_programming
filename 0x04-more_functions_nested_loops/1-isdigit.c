@@ -2,8 +2,7 @@
 
 /**
  * _isdigit - Entry point
- * @c: character to look out for 
- *
+ * @c: argument to be checked
  * Return: 1 if c is a digit, 0 if otherwise
  */
 
