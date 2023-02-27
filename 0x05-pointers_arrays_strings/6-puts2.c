@@ -16,8 +16,8 @@ void puts2(char *str)
 	{
 		if (str[count] == '\0')
 		{
-			break;
 			_putchar ('\n');
+			break;
 		}
 		if (count % 2 == 0)
 		{
