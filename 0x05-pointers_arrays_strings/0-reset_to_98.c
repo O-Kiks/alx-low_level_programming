@@ -2,7 +2,7 @@
 /**
  * reset_to_98 - entry point
  *
- * n: argument to be checked
+ * @n: argument to be checked
  *
  * Return: void
  *
