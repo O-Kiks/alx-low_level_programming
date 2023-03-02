@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *_strcat(char *dest, char *src) - Entry point
+ * *_strcat - Entry point
  *
  * @dest: first input string
  * @src: second input string
