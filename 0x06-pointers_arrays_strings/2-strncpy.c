@@ -1,26 +1,24 @@
 #include "main.h"
 
 /**
- * *_strncpy - Entry point
- *
- * @src: source string
- * @dest: destination string
- * @n: size of spacetaken from src
- *
- * Return: pointer to the resulting string dest
+ * *_strncpy - Function
+ * @dest: Parameter
+ * @src: Parameter
+ * @n: Parameter
+ * Return: dest
  */
 
-char *_strncpy(char *dest, char *src, int n);
+char *_strncpy(char *dest, char *src, int n)
 {
-	int count = 0;
+	int i;
 
-	for (count = 0; (count < n> && (sr[count] != '\0')
+	for (i = 0; (i < n) && (src[i] != '\0'); i++)
 	{
-		dest[count] = src[count];
+		dest[i] =  src[i];
 	}
-	for (; count < n; count++)
+	for (; i < n; i++)
 	{
-		dest[count] = '\0';
+		dest[i] = '\0';
 	}
 	return (dest);
 }
