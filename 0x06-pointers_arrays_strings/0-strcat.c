@@ -6,7 +6,7 @@
  * @dest: first input string
  * @src: second input string
  *
- * Return: Always char.
+ * Return: value of dest string.
  */
 
 char *_strcat(char *dest, char *src)
