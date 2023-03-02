@@ -6,7 +6,7 @@
  * @s1: value of string 1
  * @s2: vaue of string 2
  *
- * Return: return an integer depending on difference
+ * Return: 0 or an integer depending on difference
  * between compared strings
  *
  */
