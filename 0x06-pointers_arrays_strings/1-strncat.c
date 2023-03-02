@@ -5,6 +5,7 @@
  *
  * @src: source string
  * @dest: destination string
+ * @n: size of space from src
  *
  * Return: destination string
  *
