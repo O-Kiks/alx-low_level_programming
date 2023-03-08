@@ -3,7 +3,7 @@
 /**
  * _puts_recursion - Entry point
  *
- * @*s: input character
+ * @s: input character
  *
  * Return: void.
  */
