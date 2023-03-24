@@ -21,13 +21,13 @@ void print_strings(const char *separator, const unsigned int n, ...)
 
 	for (index = 0; index < n; index++)
 	{
-		if (va_arg(args, char *) != NULL)
+		if (va_arg(args, char *) == NULL)
 		{
-			printf("%s", va_arg(args, char*));
+			printf("(nil)");
 		}
 		else
 		{
-			printf("(nil)");
+			printf("%s", va_arg(args, char*));
 		}
 
 		if (separator != NULL && index != n - 1)
@@ -36,5 +36,6 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		}
 	}
 	printf("\n");
+	va_end(args);
 }
 
